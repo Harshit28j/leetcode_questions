@@ -6,7 +6,7 @@ class Infinite_array():
 		while (tar>lst[end]):
 			start_new=end+1
 			end=end+(end-start+1)*2
-			mid=(start+end)//2
+			start=start_new
 
 		while (start<=end):
 			mid=start+(end-start)//2
@@ -20,7 +20,7 @@ class Infinite_array():
 
 
 lst=np.arange(-100000,100000) #consider this infinite 
-tar=45852
+tar=4585
 my_class=Infinite_array()
 sol=my_class.searchBin(lst,tar)
 print(sol)
