@@ -14,11 +14,7 @@ public class Solution {
                 return mid;
             }
         }
-        
-        if (end >= 0 && target <= nums[end]) {
-            return end;
-        } else {
-            return end + 1;
-        }
+
+        return end + 1;
     }
 }
