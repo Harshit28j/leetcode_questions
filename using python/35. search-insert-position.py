@@ -10,10 +10,7 @@ class Solution(object):
                 end=mid-1
             else:
                 return(mid)
-        if target in nums:
-            return(end)
-        else:
-            return(end+1)
+        return(end+1)
 
 #to run this locally
 #myclass=Solution()
